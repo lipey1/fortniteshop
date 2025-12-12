@@ -1,5 +1,6 @@
 import ShopDisplay from '@/components/ShopDisplay'
 import Timer from '@/components/Timer'
+import Link from 'next/link'
 
 async function getShopData() {
     try {
@@ -77,6 +78,31 @@ export default async function Home() {
                         </p>
                     </div>
                 )}
+
+                <footer style={{
+                    marginTop: '4rem',
+                    paddingTop: '2rem',
+                    borderTop: '1px solid var(--border)',
+                    textAlign: 'center',
+                }}>
+                    <p style={{
+                        color: 'var(--text-secondary)',
+                        fontSize: '0.9rem',
+                        marginBottom: '0.5rem',
+                    }}>
+                        © {new Date().getFullYear()} Fortnite Shop. Não afiliado à Epic Games.
+                    </p>
+                    <Link 
+                        href="/politica-de-privacidade"
+                        style={{
+                            color: 'var(--accent)',
+                            textDecoration: 'none',
+                            fontSize: '0.9rem',
+                        }}
+                    >
+                        Política de Privacidade
+                    </Link>
+                </footer>
             </div>
         </main>
     )
