@@ -19,7 +19,7 @@ export default function PrivacyPolicy() {
         <div style={{
           marginBottom: '2rem',
         }}>
-          <Link 
+          <Link
             href="/"
             style={{
               color: 'var(--accent)',
@@ -74,7 +74,7 @@ export default function PrivacyPolicy() {
               lineHeight: '1.8',
               marginBottom: '1rem',
             }}>
-              O Fortnite Shop é um site informativo que exibe a loja diária do Fortnite. 
+              O Fortnite Shop é um site informativo que exibe a loja diária do Fortnite.
               Utilizamos uma API não oficial do Fortnite para obter os dados da loja.
             </p>
           </section>
@@ -93,7 +93,7 @@ export default function PrivacyPolicy() {
               lineHeight: '1.8',
               marginBottom: '1rem',
             }}>
-              Não coletamos informações pessoais dos usuários. O site apenas exibe informações 
+              Não coletamos informações pessoais dos usuários. O site apenas exibe informações
               públicas da loja do Fortnite obtidas através de uma API não oficial.
             </p>
           </section>
@@ -112,7 +112,7 @@ export default function PrivacyPolicy() {
               lineHeight: '1.8',
               marginBottom: '1rem',
             }}>
-              Este site pode utilizar cookies básicos para melhorar a experiência de navegação. 
+              Este site pode utilizar cookies básicos para melhorar a experiência de navegação.
               Você pode desativar os cookies nas configurações do seu navegador.
             </p>
           </section>
@@ -131,8 +131,8 @@ export default function PrivacyPolicy() {
               lineHeight: '1.8',
               marginBottom: '1rem',
             }}>
-              Utilizamos uma API não oficial do Fortnite (fortnite-api.com) para obter os dados da loja. 
-              Não somos responsáveis pelas práticas de privacidade ou disponibilidade desta API. 
+              Utilizamos uma API não oficial do Fortnite (fortnite-api.com) para obter os dados da loja.
+              Não somos responsáveis pelas práticas de privacidade ou disponibilidade desta API.
               Este site não é afiliado à Epic Games ou ao Fortnite.
             </p>
           </section>
@@ -151,8 +151,27 @@ export default function PrivacyPolicy() {
               lineHeight: '1.8',
               marginBottom: '1rem',
             }}>
-              Podemos atualizar esta política de privacidade periodicamente. 
+              Podemos atualizar esta política de privacidade periodicamente.
               A data da última atualização está indicada no topo desta página.
+            </p>
+          </section>
+
+          <section style={{ marginBottom: '2rem' }}>
+            <h2 style={{
+              fontSize: '1.5rem',
+              fontWeight: 'bold',
+              marginBottom: '1rem',
+              color: 'var(--accent)',
+            }}>
+              Contato
+            </h2>
+            <p style={{
+              color: 'var(--text-primary)',
+              lineHeight: '1.8',
+              marginBottom: '1rem',
+            }}>
+              Se você tiver dúvidas sobre esta política de privacidade ou sobre como tratamos seus dados,
+              entre em contato conosco através do email: <a href="mailto:felipeestrela2006@gmail.com" style={{ color: 'var(--accent)', textDecoration: 'none' }}>felipeestrela2006@gmail.com</a>
             </p>
           </section>
 
@@ -162,7 +181,7 @@ export default function PrivacyPolicy() {
             borderTop: '1px solid var(--border)',
             textAlign: 'center',
           }}>
-            <Link 
+            <Link
               href="/"
               style={{
                 color: 'var(--accent)',
